@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+
+
+
+{% block content %}
+	<div id ="showContent">
+		<h3>{{pages.title}}</h3>
+		<br>
+		<hr>
+		<br>
+		<h4>{{pages.body}}</h4>
+	</div>
+<br><br>
+	<form id="backEditDel" method='post' role="form">
+			<a href="/" role="button" class="btn btn-primary">Back</button></a> 
+			<!-- form action=... -->
+	    <button type="button" class="btn btn-warning">Edit</button>
+	    <button type="button" class="btn btn-danger">Delete</button>
+	</form>
+
+{% endblock %}

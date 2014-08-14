@@ -1,0 +1,31 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+#bootstrapForm {
+width: 60%;
+margin-left: 20%;
+margin-right: 20%;
+}
+
+#showContent{
+	width: 60%;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+#wikiList{
+	margin-left: 3%;
+}
+
+#backEditDel{
+	margin-right: 20%;
+	text-align: right;
+}
